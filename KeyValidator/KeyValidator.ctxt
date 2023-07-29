@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=KeyValidator
+comment0.text=\n\ Key\:\n\ Core\:\ \ \ \ \ \ \ Method\ must\ report\ whether\ the\ key\ is\ valid,\ or\n\ \ \ \ \ \ \ \ \ \ \ \ \ report\ that\ it\ is\ invalid\ and\ give\ one\ reason\ why\ it\ is\ invalid.\n\ \ \ \ \ \ \ \ \ \ \ \ \ To\ be\ valid,\ the\ key\ must\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ be\ at\ least\ 8\ characters\ and\ at\ most\ 16\ characters\ long,\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ not\ end\ with\ the\ special\ characters\ '\#'\ or\ '$',\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ not\ have\ a\ hyphen\ ('-')\ character\ anywhere\n\ \ \ \ \ \ \ \ \ \ \ \ \n\ Completion\:\ Method\ should\ either\ report\ that\ the\ key\ is\ valid,\ or\n\ \ \ \ \ \ \ \ \ \ \ \ \ report\ that\ it\ is\ invalid\ and\ list\ ALL\ the\ reasons\ that\ it\ is\ invalid.\n\ \ \ \ \ \ \ \ \ \ \ \ \ To\ be\ valid,\ the\ key\ must\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ satisfy\ all\ of\ the\ conditions\ above\ AND\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ have\ at\ least\ one\ Upper\ case\ character\ and\ at\ least\ one\ Lower\ case\ character,\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ not\ start\ with\ the\ same\ character\ as\ the\ first\ character\ of\ the\ user's\ name\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ contain\ either\ a\ '\#'\ or\ a\ '$',\ but\ not\ both.\n\ Challenge\:\ \ Same\ as\ completion,\ except\ that\ to\ be\ valid,\ the\ key\ must\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ satisfy\ all\ of\ the\ conditions\ above\ AND\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ have\ a\ mix\ of\ numbers\ and\ letters\n\ \ \ \ \ \ \ \ \ \ \ \ \ -\ not\ contain\ any\ "suffix"\ of\ the\ user's\ name\ of\ 2\ characters\ or\ more\ in\ any\ case.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (eg\ if\ name\ is\ Peter,\ it\ does\ not\ contain\ "er",\ or\ "eR"\ or\ "ter",\ or\ "eTer"\ or\ "ETER",\ or...)\n\n\ Hint.\ \ Look\ at\ the\ documentation\ in\ the\ String\ class.\n\ You\ will\ definitely\ find\ the\ length(),\ endsWith(...),\ and\ contains(...)\ methods\ to\ be\ helpful\n
+comment1.params=
+comment1.target=void\ doCore()
+comment1.text=\n\ Asks\ user\ for\ key\ word\ and\ then\ checks\ if\ it\ is\ a\ valid\ key\ word.\n
+comment2.params=key
+comment2.target=void\ validateKeyCore(java.lang.String)
+comment2.text=\ CORE\n\ Report\ "Valid"\ or\ "Invalid\:\ ...reason...."\n
+comment3.params=
+comment3.target=void\ doCompletion()
+comment3.text=\n\ Asks\ user\ for\ key\ word\ and\ the\ name\ and\ then\ checks\ if\ it\ is\ a\ valid\ key\ word.\n
+comment4.params=key\ name
+comment4.target=void\ validateKeyCompletion(java.lang.String,\ java.lang.String)
+comment4.text=\ COMPLETION\n\ Report\ that\ the\ key\ is\ valid\ or\ report\ ALL\ the\ rules\ that\ the\ key\ failed.\n
+comment5.params=key\ name
+comment5.target=void\ validateKeyChallenge(java.lang.String,\ java.lang.String)
+comment6.params=
+comment6.target=void\ doChallenge()
+comment7.params=
+comment7.target=void\ setupGUI()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
